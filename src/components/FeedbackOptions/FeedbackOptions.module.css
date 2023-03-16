@@ -1,0 +1,20 @@
+.buttons {
+    display: flex;
+    justify-content: center;  
+}
+.btn {
+    background-color: antiquewhite;
+    width: 70px;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid lightpink; 
+    cursor: pointer;
+    box-shadow: 5px 5px 5px -2px lightcoral;
+}
+.btn:not(:last-child) {
+    margin-right: 20px;
+}
+.btn:hover {
+    background-color: lightcoral;
+}
